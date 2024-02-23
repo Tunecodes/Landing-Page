@@ -1,0 +1,171 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    min-height: 100vh;
+  
+    flex: 1;
+}
+
+.header,
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;  
+}
+
+.footer {
+    font-size: 20px;
+    padding: 15px;
+}
+
+header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul{
+    display: flex;
+    gap: 25px;
+}
+.section1,
+.section2,
+.section3,
+.section4{
+    display: flex;
+    padding: 115px;
+}
+
+.section3{
+    background-color: gray;
+}
+
+.section1 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    gap: 40px;
+
+}
+
+h5 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.text {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.image{
+    background-color: grey;
+    padding: 100px 250px;
+    flex: 1;
+}
+
+button{ 
+    background-color: #3882F6;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.section2 h5 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    justify-content: center;
+}
+
+.infoCon {
+    display: flex;
+    gap: 40px;
+}
+
+.container{
+    width: 130px;  
+}
+
+.section2 p{
+  text-align: center; 
+}
+
+.box {
+    margin-top: 10px;
+    height: 100px;
+    padding-bottom: 20px;
+    border: 3px solid #3882F6;
+    border-radius: 5%;
+}
+
+.section3{
+    background-color: #E5E7EB;
+    padding: 100px;
+    justify-content: center;
+}
+
+.section3 p, .section3 h4{
+    margin: 0;
+}
+
+.section3 h4 {
+display: flex;
+justify-content: flex-end;
+}
+
+.section3 p{
+   
+    width: 700px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: none;
+    color: #1F2937;
+}
+
+.section4 {
+    justify-content: center;
+    padding: 80px;
+}
+
+.blueCon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 800px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.blueCon p, .blueCon h2{
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.blueCon button {
+    border: 2px solid white;
+}
+
+
+
+
